@@ -143,7 +143,7 @@ h5 i{
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     
     #main{
         height: 100%;
@@ -162,7 +162,7 @@ h5 i{
     }
 
     #colr{
-        width: 25%;
+        width: 35%;
         }
 
         .elem1{
