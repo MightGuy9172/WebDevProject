@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+ 
+        height: 100%;
+        width: 100%;
+ background-color: rgb(245, 236, 236);
+}
+
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#nav-logo{
+display: flex;
+}
+
+.gola{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav-menu i{
+    display: none;
+}
+h4 span{
+    padding:0 4px;
+border-left: 2px solid black;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+    gap: 50px;
+    padding: 0 30px;
+}
+
+#nav2 i{
+    display: none;
+}
+
+#main{
+    width: 100%;
+    height: calc(100% - 150px);
+}
+
+#maintext{
+    height: 45%;
+    width: 100%;
+    display: flex;
+overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#maintext .elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#maintext .elem h1{
+font-size: 130px;
+font-weight: 300;
+}
+
+#maintext::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+
+#maintext::-webkit-scrollbar-thumb
+{
+    background-color: rgb(241, 125, 37);
+   
+}
+
+#pic{
+    width: 100%;
+    height: 90%;
+    display: flex;
+overflow-x: auto;
+}
+
+#pic::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+
+#pic::-webkit-scrollbar-thumb
+{
+    background-color: rgb(210, 37, 241);
+   
+}
+
+#pic img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -74px;
+}
+
+
+
+
+
+
+  
+@media (max-width: 767px) {
+   #nav-menu i{
+    display: unset;
+    font-size: 20px;
+    font-weight: bolder;
+   }
+
+   #nav-menu h4{
+    display: none;
+   }
+   
+    #nav2 i{
+        display: unset;
+        font-size: 30px;
+    font-weight: bolder;
+    }
+    #nav2 h4{
+        display: none;
+    }
+    #maintext .elem h1{
+        font-size: 60px;
+       
+        }
+     
+
+        #pic img{
+            object-position: -120px 0px;
+        }
+        
+}
