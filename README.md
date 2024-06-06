@@ -9,3 +9,6 @@ https://MightGuy9172.github.io/WebDevProject/maxline/index.html
 
 4.Nexon Preview
 https://MightGuy9172.github.io/WebDevProject/nexon/index.html
+
+4.Skyline Preview
+https://MightGuy9172.github.io/WebDevProject/skyline/index.html

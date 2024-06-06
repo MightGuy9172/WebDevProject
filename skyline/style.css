@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(244, 238, 238);
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* HEAD */
+.head{
+    margin-top: 5vh;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h5{
+    background-color: pink;
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 50px;
+    margin-bottom: 5vh;
+}
+
+.head h3{
+    text-align: center;
+    font-size: 60px;
+    width: 60%;
+}
+
+.head h4{
+    text-align: center;
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 5vh;
+}
+
+.head button{
+    border-radius: 50px;
+}
+
+
+
+.gallery{
+width: 100%;
+height: fit-content;
+padding: 20px;
+
+}
+.gallery h1{
+    text-align: center;
+}
+
+
+.card2{
+    height: 45vh;
+    width: 24vw;
+    margin: 5vh;
+    position: relative;
+   
+}
+
+.cardtxt .bots{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card2 .txt{
+    opacity: 0;
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 40px;
+    transition-property:all;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+   
+}
+
+.card2 .detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro h4,.intro p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.intro p{
+    background-color: rgb(149, 149, 154);
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.intro p:hover{
+    background-color: black;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.stats h4{
+    color: rgb(149, 149, 154);
+    font-size: 15px;
+}
+
+.stats .ri-heart-fill:hover{
+color: rgb(235, 37, 103);
+}
+
+.stats .ri-eye-line:hover{
+    color: rgb(112, 193, 216);
+    }
+
+.card2:hover .txt{
+    opacity: 1;
+   
+}
+
+
+.end{
+    width: 100%;
+    height: 100%;
+    background-color: #FFDA79;
+    margin-top: 3vh;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.end h3{
+    text-align: center;
+    font-size: 80px;
+    width: 50%;
+}
+
+.end h4{
+    text-align: center;
+    font-size: 24px;
+    width: 60%;
+    margin: 5vh 0;
+}
+
+.end button{
+    font-size: 14px;
+    height: 4vw;
+   padding: 20px;
+   font-weight: 500;
+    border-radius: 50px;
+}
+
+
+.crs{
+    width: 100%;
+    height: 70%;  
+    background-color: #FFC0CB;
+    text-align: center;
+  
+}
+
+.crs h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.crs h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.crs img{
+    margin: 3vh 0;
+height: 100px;
+width: 100px;
+object-fit: cover;
+object-position: top;
+border-radius: 50%;
+}
+
+.carousel-item{
+    padding: 10% 15%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width:768px) {
+    
+    .head h5{
+        font-size: 15px;
+       
+    }
+    .head h3{
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .head h4{
+        font-size: 15px;
+        margin: 5vh 0;
+        width: 90%;
+    }
+    
+    .crs h4{
+        font-size: 25px;
+    }
+
+    .carousel-item{
+        padding: 25% 15%;
+    }
+
+    .end{
+        width: 100%;
+        height: 100%;
+        background-color: #FFDA79;
+        margin-top: 3vh;
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .end h3{
+        text-align: center;
+        font-size: 40px;
+        width: 90%;
+    }
+    
+    .end h4{
+        text-align: center;
+        font-size: 18px;
+        width: 90%;
+        margin-top: 5vh;
+    }
+    
+    .end button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    
+   
+}
