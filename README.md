@@ -12,3 +12,6 @@ https://MightGuy9172.github.io/WebDevProject/nexon/index.html
 
 5.Skyline Preview
 https://MightGuy9172.github.io/WebDevProject/skyline/index.html
+
+6.Ani image Preview
+https://MightGuy9172.github.io/WebDevProject/ani-image/index.html
