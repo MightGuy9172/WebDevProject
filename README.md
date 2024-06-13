@@ -15,3 +15,6 @@ https://MightGuy9172.github.io/WebDevProject/skyline/index.html
 
 6.Ani image Preview
 https://MightGuy9172.github.io/WebDevProject/ani-image/index.html
+
+7.Guess Number Preview
+https://MightGuy9172.github.io/WebDevProject/guess-number/index.html

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+nav{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav button{
+    color: black;
+    background-color: white;
+    border: none;
+   font-size: 30px;
+   font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+#main h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main hr{
+    margin-top: 10vh;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.answer{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: 27%;
+}
+
+.answer h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 80px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#game{
+ height: 65vh;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 12vw 20vw;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#guess{
+    height: 8vw;
+    width: 14vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid white;
+    font-size: 80px;
+}
+
+.user button{
+    height: 5vw;
+    width: 8vw;
+    background-color: white;
+    color: black;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.details h4{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    nav{
+        width: 100%;
+    }
+
+    nav button{
+   font-size: 20px;
+    padding: 8px 20px;
+}
+
+nav h5{
+    font-size: 20px;
+}
+
+.answer{
+    left: 33%;
+    top: 37%;
+}
+
+#game{
+    height: 52vh;
+    padding: 4vw 4vw;
+   }
+   
+   
+   #guess{
+       height: 20vw;
+       width: 35vw;
+       font-size: 50px;
+   }
+   
+   .user button{
+       height: 15vw;
+       width: 22vw;
+       font-size: 20px;
+   }
+   
+   .details{
+       font-size: 16px;
+   }
+   
+   .details h4{
+       font-size: 27px;
+   }
+
+}
