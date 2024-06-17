@@ -21,3 +21,6 @@ https://MightGuy9172.github.io/WebDevProject/guess-number/index.html
 
 8.Drummer Preview
 https://MightGuy9172.github.io/WebDevProject/drummer/index.html
+
+9.Simon Game Preview
+https://MightGuy9172.github.io/WebDevProject/Simon-game/index.html
