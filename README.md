@@ -24,3 +24,6 @@ https://MightGuy9172.github.io/WebDevProject/drummer/index.html
 
 9.Simon Game Preview
 https://MightGuy9172.github.io/WebDevProject/Simon-game/index.html
+
+10.To-do List Preview
+https://MightGuy9172.github.io/WebDevProject/to-do-list/index.html

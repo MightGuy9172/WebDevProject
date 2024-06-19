@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#to-do{
+    margin-top: 20vh;
+    width: 60%;
+    min-height: 250px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+#to-do h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5vh 0;
+    font-size: 40px;
+   color: rgb(238, 82, 55);
+}
+
+#to-do img{
+    width: 40px;
+    height: 40px;
+}
+
+.userin{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: rgb(210, 210, 210);
+   border-radius: 30px;
+}
+
+#user-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.userin button{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(235, 71, 42);
+    border-radius: 40px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.tasks{
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tasks li{
+    list-style: none;
+    padding: 20px 50px;
+    font-size: 17px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.tasks li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+}
+
+.tasks li.checked::before{
+background-image: url(images/checked.png);
+}
+
+.tasks li.checked{
+text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    color: #555;
+    text-align: center;
+}
+
+ul li span:hover{
+    cursor: pointer;
+    background-color: #ded2d2;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    #to-do{
+     width: 80%;
+    }
+    .userin{
+        width: 95%;
+        margin: auto;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+      background-color: rgb(214, 211, 211);
+      border-radius: 20px;
+  
+    }
+    
+    #user-input{
+   flex: 1;
+   border: none;
+   outline: none;
+   background: transparent;
+   font-size: 16px;
+   padding: 10px 0;
+   padding-left: 15px;
+   
+    }
+    
+    .userin button{
+        border: none;
+        outline: none;
+        background-color: tomato;
+        color: white;
+     font-size: 16px;
+     padding: 10px 10px;
+        border-radius: 30px;
+        width: 30%;
+    }
+}
