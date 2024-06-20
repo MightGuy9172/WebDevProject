@@ -27,3 +27,6 @@ https://MightGuy9172.github.io/WebDevProject/Simon-game/index.html
 
 10.To-do List Preview
 https://MightGuy9172.github.io/WebDevProject/to-do-list/index.html
+
+11.Weather Preview
+https://MightGuy9172.github.io/WebDevProject/weather/index.html
