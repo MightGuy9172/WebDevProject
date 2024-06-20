@@ -3,6 +3,40 @@ body {
   background-color: #011F3F;
 }
 
+
+.modal{
+  width: 55%;
+  height: 75%;
+  background-color: rgb(127, 9, 223);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal .content{
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content h2{
+  font-size: 30px;
+  color: white;
+}
+
+video{
+  width: 98%;
+  height: 83%;
+  object-fit: contain;
+}
+
+.content i:hover{
+background-color: #555;
+border-radius: 50%;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
@@ -61,12 +95,31 @@ body {
   font-size: 20px;
   border: none;
   cursor: pointer;
+  margin-left: 20px;
+}
+
+.help{
+  width: 10vw;
+  height: 3vw;
+  border-radius: 10px;
+  background-color: rgb(34, 185, 31);
+  color: rgb(254, 254, 254);
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
 }
 
 
 
 
 @media (max-width:768px) {
+
+  .modal{
+    width: 90%;
+    height: 30%;
+  }
+  
+
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
@@ -80,6 +133,12 @@ body {
     width: 30vw;
   height: 10vw;
   font-size: 40px;
+  }
+
+  .help{
+    width: 30vw;
+    height: 10vw;
+    font-size: 40px;
   }
 
   .container {

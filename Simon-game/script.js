@@ -79,3 +79,11 @@ function startOver() {
     pattern = [];
     started = false;
   }
+
+  document.querySelector(".ri-close-line").addEventListener("click",function(){
+    document.querySelector(".modal").style.display="none";
+  });
+
+  document.querySelector(".help").addEventListener("click",function(){
+    document.querySelector(".modal").style.display="unset";
+  });
