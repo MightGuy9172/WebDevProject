@@ -84,7 +84,7 @@ background-image: url(images/tom2.png);
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .drum {
     width: 300px;
     height: 300px;
