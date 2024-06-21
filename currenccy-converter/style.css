@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,212,255);
+background: linear-gradient(135deg, rgba(0,212,255,1) 0%, rgba(49,204,202,1) 52%, rgba(14,8,122,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.head{
+    color: white;
+}
+
+.card{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background: rgb(0,212,255);
+   background: linear-gradient(275deg, rgba(0,212,255,1) 0%, rgba(204,49,158,1) 0%, rgba(220,172,222,1) 100%, rgba(191,100,184,1) 100%, rgba(126,32,143,1) 100%, rgba(14,8,122,1) 100%);
+}
+
+img{
+    width: 27%;
+    height: 27%;
+    object-fit: contain;
+}
+
+.input{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.from , .to{
+ 
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input h1{
+    text-align: center;
+    font-size: 40px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(169,49,204,1) 100%, rgba(14,8,122,1) 100%);
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: 4px 8px 10px rgb(133, 19, 199);
+    color: white;
+}
+
+#value{
+    font-size: 25px;
+    padding: 10px;
+}
+
+select{
+    font-size: 14px;
+    padding: 8px;
+}
+
+.to h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+    color: white;
+}
+
+button{
+    width: 30%;
+    height: 10%;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(49,204,65,1) 100%, rgba(14,8,122,1) 100%);
+    border: none;
+    box-shadow: 4px 8px 30px rgb(96, 227, 60);
+}
+
+button:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+    .card{
+        width: 90%;
+        height: 70%;
+        padding: 10px 30px;
+        
+    }
+    
+    img{
+        width: 27%;
+        height: 27%;
+        object-fit: contain;
+    }
+
+    .head{
+        font-size: 25px;
+    }
+
+    .input{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .from , .to{
+     
+        width: 45%;
+        gap: 20px;
+    }
+    
+    .input h1{
+        font-size: 24px;
+        padding: 5px 10px;
+    }
+    
+    #value{
+        font-size: 16px;
+        padding: 6px;
+        margin-top: 10px;
+    }
+    
+    select{
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+   .to h2{
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+    
+    button{
+        width: 50%;
+        height: 10%;
+        font-size: 18px;
+        padding: 10px;
+        font-weight: 700;
+        border-radius: 10px;
+        cursor: pointer;
+        background: rgb(0,212,255);
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(49,204,65,1) 100%, rgba(14,8,122,1) 100%);
+        border: none;
+        box-shadow: 4px 8px 30px rgb(96, 227, 60);
+    }
+    
+    button:hover{
+        color: white;
+    }
+
+}

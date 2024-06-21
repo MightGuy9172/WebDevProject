@@ -30,3 +30,6 @@ https://MightGuy9172.github.io/WebDevProject/to-do-list/index.html
 
 11.Weather Preview
 https://MightGuy9172.github.io/WebDevProject/weather/index.html
+
+12.Currency Converter 
+https://MightGuy9172.github.io/WebDevProject/currenccy-converter/index.html
